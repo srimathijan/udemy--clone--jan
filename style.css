@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+        font-family: "Liter", serif;
+        
+      
+}
+.navbar{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border-bottom: solid 1px grey;
+    align-items: center;
+}
+.navbar__name__tittle{
+    color: blueviolet;
+}
+.navbar__search{
+    border: solid 1px gray;
+    padding: 10px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   
+}
+.navbar__search input{
+    border: none;
+    font-size:medium;
+    width: 100%;
+}
+.navbar__search input:focus{
+    outline: none;
+}
+.navbar__icons{
+    display: flex;
+    gap: 10px;
+}
+.catagories{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    border-bottom: solid 1px grey;
+}
+.catagories p{
+    background-color: blueviolet;
+    color:white;
+    padding: 10px;
+    border-radius: 30px;
+}
+.sales--image img{
+    width: 100%;
+}
+
+.recommended__tittle{
+    padding: 10px;
+   
+}
+.recommended-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.recommended__card{
+    margin-top:10px ;
+    width: 350px;
+   
+    
+}
+.recommended__card img{
+    width: 100%;
+   height: 200px;
+  
+}
+.topics{
+    padding: 10px;
+}
+.topics__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+.topics__container p{
+    border: 1px solid gray;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    border-radius: 30px;
+   
+    
+}    
+.papular__course{
+    padding: 10px;
+}
+.papular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 10px;
+    
+    
+    
+}
+.footer{
+    background-color: black;
+    padding: 10px;
+    color: aliceblue;
+    
+}
+.footer__one{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.footer__one p{
+    margin-top: 10px;
+}
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
